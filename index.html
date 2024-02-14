@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Feliz San Valentín!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="heart"></div>
+    <h1>¡Feliz San Valentín, mi amor!</h1>
+    <p>Querida Kiara,</p>
+    <p>En este día tan especial quiero dedicarte unas palabras llenas de amor y ternura. Eres mi razón de ser, mi inspiración y mi alegría. Cada momento a tu lado es un regalo del cielo y estoy eternamente agradecido por tenerte en mi vida.</p>
+    <p>Hoy, en este día de San Valentín, quiero recordarte lo mucho que te amo y lo importante que eres para mí. Cada latido de mi corazón es un eco de tu nombre y cada pensamiento está impregnado de tu dulce esencia.</p>
+    <p>Para hacer este día aún más especial, ¿qué te parece si jugamos un pequeño juego?</p>
+    <p>He pensado en un número entre 1 y 100. ¿Puedes adivinar cuál es?</p>
+    <input type="number" id="guessInput" placeholder="Tu suposición">
+    <button id="guessButton">¡Adivinar!</button>
+    <div id="result"></div>
+  </div>
+
+  <!-- Video al final de la página -->
+  <div class="video-container">
+    <video src="render1776247.mp4" controls autoplay loop></video>
+  </div>
+
+  <!-- Reproductor de música estilo Spotify -->
+  <div class="music-player">
+    <audio id="backgroundMusic" src="hola.mp3" loop></audio>
+    <div class="controls">
+      <button id="playPauseButton">&#9658;</button>
+      <div id="progressBarContainer">
+        <div id="progressBar"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
